@@ -1,0 +1,17 @@
+class F
+{
+  public static void main(String[] args)
+   {
+     int a=10;
+     System.out.println(a);
+     F.m1();
+     System.out.println(a);
+   }
+  public static void m1()
+   {
+     int a=20;
+     System.out.println(a);
+   }
+}
+     
+     

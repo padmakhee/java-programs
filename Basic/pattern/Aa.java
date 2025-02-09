@@ -1,0 +1,27 @@
+/*
+1
+21
+321
+4321
+54321
+*/
+// import java.util.Scanner;
+class Aa
+{
+public static void main(String[] args)
+{
+  //  Scanner sc=new Scanner(System.in);
+  //  System.out.print("enter size:");
+  //  int n=sc.nextInt();
+   int i,j;
+   for(i=1;i<=5;i++)
+    {
+      for(j=i;j>=1;j--)
+      {
+        System.out.print(j);
+      }
+      System.out.println();
+    }
+  }
+}
+   
